@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <h1>Syötää Tietoja</h1>
+
+          <form class="login-form" action="insert.php" method="post">
+            <input type="text" placeholder="Etunimi" name="firstname" required>
+            <input type="text" placeholder="Sukunimi" name="lastname" required>
+            <input type="email" placeholder="Sähköposti" name="email" required>
+            <textarea id="viesti" name="message" placeholder="Lisää viestiä"></textarea>
+
+            <input type="submit" value="Lähetä">
+          </form>
+        </div>
+      </div>
+</body>
+</html>
